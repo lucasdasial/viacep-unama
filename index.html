@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CEP</title>
+</head>
+
+<body>
+  <section class="logo">
+    <h1>SEU CEP</h1>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+  </section>
+
+  <form class="form-cep" id="form">
+    <label>
+      CEP*
+      <input type="number" required id="inputCep" name="cep" max="8">
+    </label>
+
+    <label>
+      UF:
+      <input type="text" id="inputUF" name="uf">
+    </label>
+
+    <label>
+      Cidade:
+      <input type="text" id="inputCity" name="city">
+    </label>
+
+    <label>
+      Bairro:
+      <input type="text" id="inputDistrict" name="district">
+    </label>
+
+    <button type="submit" id="btnSubmit">Pesquisar CEP</button>
+    </div>
+
+    <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>
