@@ -110,6 +110,7 @@ input{
   color: var(--text);
   transition: 0.2s;
   border-radius: 4px;
+  transition: 0.2s;
 }
 
 input:focus{
@@ -119,6 +120,7 @@ input:focus{
 }
 
 .form-cep{
+  transition: 0.2s;
   background-color: var(--surface);
   padding: 1em 2em;
   
@@ -142,7 +144,17 @@ input:focus{
   width: 50%;
 }
 
+.loading{
+  color: var(--primary);
+  font-size: 28px;
+  font-weight: bold;
+  height: 40px;
+  margin-bottom: 10px;
+}
 
+.hidden{
+  opacity: 0;
+}
 
 
 
